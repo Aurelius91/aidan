@@ -1,0 +1,42 @@
+.muse-detail-image-long {
+	margin-top: 0;
+}
+
+#general-section {
+	position: relative;
+	width: 100%;
+	padding: 5.5% 5% 5%;
+	padding-top: 5.5%;
+}
+
+#general-bottom-section {
+	padding: 0% 5% 7%;
+}
+
+.error {
+	color: red;
+	display: none;
+}
+
+.cart-product-description {
+	font-family: lato-regular;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+ul.muse-of-the-month-list > li.active a {
+    color: #3b3b3b;
+    font-family: Lato-Bold;
+}
+
+ul.muse-of-the-month-list > li > a:focus, ul.muse-of-the-month-list > li > a:hover {
+    color: #3b3b3b;
+    font-family: Lato-Bold;
+}
+
+ul.muse-of-the-month-list > li > a {
+    color: #747474;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
